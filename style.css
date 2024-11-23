@@ -115,13 +115,15 @@ button {
   background: linear-gradient(to bottom, #4dc7d9 0%,#66a6ff 100%);
   color: white;
   padding: 0.4em 0.9em;
-  display: inline;
+ 
   align-items: center;
   justify-content: center;
   border: none;
   border-radius: 25px;
   box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
   transition: all 0.3s;
+
+
 }
 
 button:hover {
@@ -185,5 +187,5 @@ button:hover svg {
       background-image: url(imges/DALL·E\ 2024-11-23\ 12.42.34\ -\ A\ professional\ and\ friendly\ AI\ chatbot\ website\ background.\ The\ image\ features\ a\ futuristic\,\ minimalist\ design\ with\ soft\ glowing\ abstract\ digital\ patte.webp);
       background-repeat: no-repeat;
       background-size: cover;
-      
+      background-attachment: fixed;      
       }
